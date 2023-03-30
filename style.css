@@ -7,7 +7,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(web2/IMG_5843.JPG);
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(web2/IMG_5843.JPG);
     background-size: cover;
     background-position: center;
 }
@@ -38,8 +38,11 @@
     text-transform: uppercase;
     
 }
+
+ul li a:hover{
+    color: greenyellow;
+}
 .navbar ul li::after{
-    
     content: '';
     height: 3px;
     width: 0%;
@@ -54,6 +57,49 @@
     width: 100%;
 }
 
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 900px;
+}
+.srch{
+    font-family:Georgia, 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid green;
+    margin-top:13px;
+    color: #fff;
+    border-right:none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px ;
+    border-top-right-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: green;
+    border: 2px none;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5x;
+    border-bottom-right-radius: 5px;
+   
+}
+.btn:hover{
+    background-color:olive;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline:none;
+}
+
 .content{
     width: 100%;
     position:absolute ;
@@ -64,15 +110,20 @@
     
 }
 
-.content h1{
+.content p1{
     font-size: 50px;
     margin-top: 80px;
-    
 }
-.content h1:hover{
+
+span2{
     color: greenyellow;
-    transition: 1s;
-    overflow: hidden;
+   
+}
+span3{
+    color:deepskyblue;
+}
+span4{
+    color:yellow;
 }
 
 .content p{
